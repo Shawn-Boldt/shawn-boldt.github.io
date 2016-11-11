@@ -1,0 +1,83 @@
+html, body {
+	height:100%;
+}
+
+/*************************************
+		Text Formating
+**************************************/
+
+.primaryTitle {
+	font-family: 'Copse', serif;
+	text-align: center;
+	color: white;
+	text-shadow: 4px 4px 4px #223;
+}
+
+.secondaryTitle {
+	font-family: 'Playball', cursive;
+	font-size: 2.5rem;
+	text-align: center;
+	color: white;
+	text-shadow: 4px 4px 4px #223;
+
+}
+
+.bodyText {
+	font-family: 'Alice', serif;
+	font-size: 1.2rem;
+	color: white;
+
+}
+
+
+
+/*************************************
+		Background Formating
+**************************************/
+html{
+	background-color:slategrey; /*adds a filler in between the 'intro' and the 'about' sections*/
+}
+
+.sect{
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sectOne {
+	background-image: url(../img/coffee1.jpg);
+	background-position: center;
+
+}
+
+.subSectionOne {
+	background-color: slategrey;
+}
+
+.subSectionTwo {
+	background-image: url(../img/brownsquares.jpg);
+}	
+
+
+/*************************************
+		Nav Bar
+**************************************/
+
+nav {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,.5);
+	z-index: 99;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	line-height: 50px;
+}
+nav a:hover {
+	color: slategrey;
+}

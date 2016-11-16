@@ -35,7 +35,7 @@ html, body {
 		Background Formating
 **************************************/
 html{
-	background-color:slategrey; /*adds a filler in between the 'intro' and the 'about' sections*/
+	background-color:#1e3048; /*adds a filler in between the 'intro' and the 'about' sections*/
 }
 
 .sect{
@@ -51,11 +51,11 @@ html{
 }
 
 .subSectionOne {
-	background-color: slategrey;
+	background-color: #1e3048;
 }
 
 .subSectionTwo {
-	background-image: url(../img/brownsquares.jpg);
+	background-image: url(../img/background3.jpg);
 }	
 
 
@@ -80,4 +80,12 @@ nav a {
 }
 nav a:hover {
 	color: slategrey;
+}
+
+/*************************************
+		Picture Formatting
+**************************************/
+
+#githubLogo, #linkedinLogo, #twitterLogo{
+	width: 40px;
 }

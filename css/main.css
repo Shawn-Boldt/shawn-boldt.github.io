@@ -75,7 +75,7 @@ nav {
 nav a {
 	text-decoration: none;
 	color: white;
-	margin-left: 30px;
+	margin:auto;
 	line-height: 50px;
 }
 nav a:hover {
@@ -88,6 +88,7 @@ nav a:hover {
 
 #githubLogo, #linkedinLogo, #twitterLogo{
 	width: 40px;
+	margin-left: 30px;
 }
 .aboutPicture{
 	max-height: 500px;

@@ -23,7 +23,7 @@ html, body {
 }
 
 .bodyText {
-	font-family: 'Alice', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.2rem;
 	color: white;
 
@@ -89,6 +89,10 @@ nav a:hover {
 #githubLogo, #linkedinLogo, #twitterLogo{
 	width: 40px;
 }
+.aboutPicture{
+	max-height: 500px;
+}
+
 .bottomLogo{
 	width:40px;
 	margin: 0.5rem;
